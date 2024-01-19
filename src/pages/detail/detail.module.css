@@ -1,0 +1,39 @@
+.container{
+    color: #fff;
+    padding: 0 14px;
+}
+
+.center{
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+#black{
+    color: #fff;
+}
+
+.content{
+    max-width: 420px;
+    background-color: #0f0f0f;
+    margin: 24px auto;
+    padding: 24px;
+    border-radius: 8px;
+}
+
+.content p:not(:last-of-type){
+    margin-bottom: 16px;
+}
+
+.Profit{
+    color: #12f98a;
+}
+
+.Loss{
+    color: #f91257;
+}
+
+.content p{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
